@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { logIn } from "../store/actions";
-import firebase from "firebase/app";
+import { Redirect } from "react-router-dom";
 
 class LogIn extends Component {
   state = {
@@ -21,6 +21,9 @@ class LogIn extends Component {
   };
 
   render() {
+    const { authError, auth } = this.props;
+    if (auth) return <Redirect to="/profile" />;
+
     return (
       <div className="auth-container">
         <form onSubmit={this.handleSubmit} className="white">
@@ -43,12 +46,10 @@ class LogIn extends Component {
             />
           </div>
           <div className="input-field">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary mb-5">
               Login
             </button>
-            {/* <div className="red-text center">
-              {authError ? <p>{authError}</p> : null}
-            </div> */}
+            {authError ? <p className="text-danger">{authError}</p> : null}
           </div>
         </form>
       </div>
