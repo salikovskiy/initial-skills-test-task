@@ -7,7 +7,8 @@ const Profile = props => {
   if (!props.auth) return <Redirect to="/login" />;
   return (
     <div className="container">
-      <h1>User profile</h1>
+      <h1>You are signed in</h1>
+      <h2 className="text-muted">Your profile</h2>
       <p className="text-muted">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
         adipisci perspiciatis reiciendis aliquid dolor veniam corporis.

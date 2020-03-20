@@ -15,7 +15,7 @@ class LogIn extends Component {
     });
   };
 
-  handleSubmit = e => {
+  handleSubmit = async e => {
     e.preventDefault();
     this.props.logIn(this.state);
   };
@@ -23,7 +23,6 @@ class LogIn extends Component {
   render() {
     const { authError, auth } = this.props;
     if (auth) return <Redirect to="/profile" />;
-
     return (
       <div className="auth-container">
         <form onSubmit={this.handleSubmit} className="white">
