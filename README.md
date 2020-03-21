@@ -10,6 +10,20 @@ Since the authorization was done with firebase, the login and password had to be
 email: admin@email.com
 password: 123456
 ```
+And added ``Sign Out`` button for better user experience
+
+## Implemented
+- 4 routes:
+ - / - home
+ - /profile
+ - /news
+ - /login
+ - If the user clicks on the "profile" page and he is not "authorized" - throw on the / login page
+- Authorization with Firebase
+ - If the correct data is entered, then redirect to the / profile page
+- Data transmission via redux 
+- Showing news through News RestAPI 
+
 
 ## Built With
 
