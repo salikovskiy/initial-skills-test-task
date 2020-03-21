@@ -7,7 +7,7 @@
 Since the authorization was done with firebase, the login and password had to be changed because firebase only accepts email and six-digit passwords
 
 ```
-email: admin@email.com
+email: admin@mail.com
 password: 123456
 ```
 And added ``Sign Out`` button for better user experience
