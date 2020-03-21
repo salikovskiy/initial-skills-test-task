@@ -33,5 +33,6 @@ And added ``Sign Out`` button for better user experience
 - [Redux](https://redux.js.org/)
 - [Redux Thunk](https://github.com/reduxjs/redux-thunk)
 - [Firebase](https://firebase.google.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 <img src="https://i.imgur.com/f6AQsuQ.jpg">
