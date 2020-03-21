@@ -4,9 +4,14 @@
 
 <img src="https://i.imgur.com/f6AQsuQ.jpg">
 
-## Getting Started
+## Deviation from the technical task
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Since the authorization was done with firebase, the login and password had to be changed because it only accepts email and six-digit passwords
+
+```
+email: admin@email.com
+password: 123456
+```
 
 ## Built With
 
