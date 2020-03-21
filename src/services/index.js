@@ -4,7 +4,7 @@ import axios from "axios";
 const key = "2854a47a27d648f2a91108a2ba59e497";
 // but for the purposes of this task I will leave it here
 
-axios.defaults.baseURL = "http://newsapi.org/v2";
+axios.defaults.baseURL = "https://newsapi.org/v2";
 
 export default {
   async getHotNews() {
