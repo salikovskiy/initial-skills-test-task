@@ -4,7 +4,7 @@
 
 ## Deviation from the technical task
 
-Since the authorization was done with firebase, the login and password had to be changed because it only accepts email and six-digit passwords
+Since the authorization was done with firebase, the login and password had to be changed because firebase only accepts email and six-digit passwords
 
 ```
 email: admin@email.com
