@@ -21,6 +21,7 @@ And added ``Sign Out`` button for better user experience
   - If the user clicks on the "profile" page and he is not "authorized" - throw on the / login page
 - Authorization with Firebase
   - If the correct data is entered, then redirect to the / profile page
+  - If other data is entered, the following messages are displayed: 'The username or password you entered is incorrect'
 - Data transmission via redux 
 - Showing news through News RestAPI 
 
