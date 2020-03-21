@@ -2,8 +2,6 @@
 
 ## [Check it live here](https://react-test-task-60bb0.firebaseapp.com/)
 
-<img src="https://i.imgur.com/f6AQsuQ.jpg">
-
 ## Deviation from the technical task
 
 Since the authorization was done with firebase, the login and password had to be changed because it only accepts email and six-digit passwords
@@ -20,3 +18,5 @@ password: 123456
 - [Redux](https://redux.js.org/)
 - [Redux Thunk](https://github.com/reduxjs/redux-thunk)
 - [Firebase](https://firebase.google.com/)
+
+<img src="https://i.imgur.com/f6AQsuQ.jpg">
